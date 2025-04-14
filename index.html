@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FIRE TRUCKS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f0f0f0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background: white;
+      border: 5px solid black;
+      padding: 20px;
+    }
+    .main-img {
+      width: 300px;
+    }
+    .coords {
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .grid-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .grid-item img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      border: 1px solid #888;
+      padding: 5px;
+      background-color: #fff;
+    }
+    .label {
+      margin-top: 5px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <img src="Engine5.jpg" alt="Main Sign" class="main-img">
+
+  
+  
+  <div class="grid">
+    <div class="grid-item"><img src="emergency1one.jpg"><div class="label">Emergency1</div></div>
+    <div class="grid-item"><img src="iversonEngine.jpg"><div class="label">Iverson Engine</div></div>
+    <div class="grid-item"><img src="JapTanker.jpg"><div class="label">Japanese Tanker</div></div>
+    <div class="grid-item"><img src="fmcPumper.jpg"><div class="label">FMC Pumper</div></div>
+    <div class="grid-item"><img src="PierceEngine.jpg"><div class="label">Pierce Engine</div></div>
+
+    <div class="grid-item"><img src="piercepumper.jpg"><div class="label">Pierce Pumper</div></div>
+    <div class="grid-item"><img src="piercepumper2.jpg"><div class="label">Pierce Pumper 2</div></div>
+    <div class="grid-item"><img src="pumper.jpg"><div class="label">Pumper</div></div>
+    <div class="grid-item"><img src="Tanker.jpg"><div class="label">Fire Tanker</div></div>
+    <div class="grid-item"><img src="Engine.jpg"><div class="label">Fire Engine</div></div>
+  </div>
+</div>
+
+</body>
+</html>
